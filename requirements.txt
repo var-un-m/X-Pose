@@ -122,8 +122,10 @@ sympy>=1.13.1
 tenacity>=8.5.0
 tifffile>=2025.3.30
 tokenizers==0.15.2
+--index-url https://download.pytorch.org/whl/cu121
 torch>=2.6.0
 torchvision>=0.21.0
+torchaudio>=2.6.0
 tqdm>=4.67.1
 transformers==4.37.2
 truss>=0.9.75
@@ -171,3 +173,4 @@ uv>=0.7.18
 wadler-lindig>=0.1.7
 wheel>=0.45.1
 yapf>=0.32.0
+ninja
